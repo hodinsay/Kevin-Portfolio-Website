@@ -21,24 +21,26 @@
 	<header id="header">
 		<div class="container">
 			<nav>
-				<img src="images/logo.png" alt="logo" class="logo">
-				<ul>
+				<a href="#header"><img src="images/logo.png" alt="logo" class="logo"></a> 
+				<ul class="nav-menu">
 					<li>
-						<a href="#">Home</a>
+						<a href="#header">Home</a>
 					</li>
 					<li>
-						<a href="#">About</a>
+						<a href="#about">About</a>
 					</li>
 					<li>
-						<a href="#">Services</a>
+						<a href="#services">Services</a>
 					</li>
 					<li>
-						<a href="#">Portfolio</a>
+						<a href="#portfolio">Portfolio</a>
 					</li>
 					<li>
-						<a href="#">Contact</a>
+						<a href="#contact">Contact</a>
 					</li>
+					<i class="fas fa-times close-menu"></i>
 				</ul>
+				<i class="fas fa-bars open-menu"></i>
 			</nav>
 			<div class="header-text">
 				<p>UI/UX Designer</p>
@@ -178,6 +180,18 @@
 		<h3>Designed &#169; Din Ho</h3>
 	</footer>
 
+	<!-- cferdinandi / smooth-scroll -->
+	<!-- https://github.com/cferdinandi/smooth-scroll -->
+
+	<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+	<script>
+		var scroll = new SmoothScroll('a[href*="#"]', {
+			speed: 1000,
+			speedAsDuration: true
+		});
+	</script>
+
 	<!-- jamiewilson/form-to-google-sheets: https://github.com/jamiewilson/form-to-google-sheets -->
 	<script>
 		const scriptURL = 'https://script.google.com/macros/s/AKfycbx2EkAve8QLlAk450ZhT8LdqZJOYr83gUkFl4vCVIrMlxpnYzpDUi010sLZNuiVgL_i2g/exec'
@@ -202,4 +216,3 @@
 	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
-
