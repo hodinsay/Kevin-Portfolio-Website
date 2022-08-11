@@ -1,6 +1,6 @@
 # Kevin Portfolio Website
 
-A website serves as a personal portfolio site. This design has all the basic necessity components for a successful portolio online presents. The website is reponsive and accessible on any mobile devices. 
+A website serves as a personal portfolio site. This design has all the basic necessity components for a successful portfolio online presents. The website is responsive and accessible on mobile devices. 
 
 **Link to the Website**: https://codepen.io/hodin81/full/LYdmjvb
 
