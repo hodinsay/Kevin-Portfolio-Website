@@ -4,6 +4,8 @@ A website serves as a personal portfolio site. This design has all the basic nec
 
 **Link to the Website**: https://codepen.io/hodin81/full/LYdmjvb
 
+<img width="656" alt="kevin-2" src="https://user-images.githubusercontent.com/100463706/190225409-572e2b91-0143-4c8c-b917-1ed478efd2de.png">
+
 # How It's Made: 
 
 **Tech Used**: HTML 5, CSS 3, and JavaScript
